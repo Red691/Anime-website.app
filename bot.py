@@ -3,9 +3,9 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums import ChatMemberStatus
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("API_ID"20594537"))
+API_HASH = os.getenv("API_HASH"c505a4e5bb7d482197875888af544f17")
+BOT_TOKEN = os.getenv("BOT_TOKEN"7280187591:AAG-aaAesc20QDzvu1G2SCU_xq5MQHVMB68")
 
 app = Client(
     "inline_replace_bot",
